@@ -1,0 +1,21 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    margin: 0;
+}
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Set a negative z-index to position the canvas behind other elements */
+}
+
+.intro{
+    position: relative;
+    background-color: rgb(255,255,255, .8);
+    margin-top: 25vh;
+    width: 65%;
+    margin: auto;
+}

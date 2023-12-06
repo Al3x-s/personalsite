@@ -13,11 +13,14 @@ canvas {
 }
 
 .content{
-    position: relative;
     background-color: rgb(255,255,255, .8);
-    margin-top: 25vh;
-    width: 65%;
+    width: 70%;
     margin: auto;
+    margin-top: 10vh;
+}
+.content div{
+    margin-left: 2.5vh;
+    margin-right: 2,5vh;
 }
 .experience{
     position: relative;

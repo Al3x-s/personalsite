@@ -1,0 +1,142 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    margin: 0;
+}
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Set a negative z-index to position the canvas behind other elements */
+}
+
+.content{
+    background-color: rgb(255,255,255, .95);
+    width: 70%;
+    margin: auto;
+    margin-top: 10vh;
+}
+.content div{
+    margin-left: 2.5vh;
+    margin-right: 2,5vh;
+}
+.experience{
+    position: relative;
+    background-color: rgb(255,255,255, .95);
+    margin-top: 25vh;
+    width: auto;
+    margin: auto;
+}
+.navbar{
+    margin-top: 1vh;
+    height: 4vh;
+    display: flex;
+    justify-content: space-between;
+}
+.linkitem{
+    height: 4vh;
+    width: auto;
+    margin-right: 2vh;
+}
+.init{
+    height: 4vh;
+    font-size: 24px;
+    margin-left: 2vh;
+    width: auto;
+}
+.init p {
+    margin: 0;
+}
+.me{
+    border-radius: 50%;
+    height: 20vh;
+}
+.exp_cont{
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+}
+.icon{
+    height: 8vh;
+    filter: grayscale(100%)
+}
+.icon_row_2{
+    padding-top: 4vh;
+}
+a:link {
+    color: #144c69;
+  }
+  
+  a:visited {
+    color: #144c69;
+  }
+  
+  a:hover {
+    color: purple;
+  }
+  
+  a:active {
+    color: #144c69;
+  }
+.people_cont{
+    display: flex;
+    justify-content: space-around;
+}
+
+.skillscont{
+    display: flex;
+    justify-content: space-around;
+}
+.exp_wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+.exp_logo{
+    height: 7vh;
+}
+/* Media queries */
+/* Mobile */
+
+@media (max-width: 900px){
+    .content{
+        background-color: rgb(255,255,255, .95);
+        width: 80%;
+        margin: auto;
+        margin-top: 5vh;
+    }
+    .content div{
+        margin-left: 2.5vh;
+        margin-right: 2,5vh;
+    }
+    .experience{
+        position: relative;
+        background-color: rgb(255,255,255, .95);
+        margin-top: 25vh;
+        width: auto;
+        margin: auto;
+    } 
+    .navbar{
+        margin-top: 1vh;
+        height: 4vh;
+        display: flex;
+        justify-content: space-between;
+    }
+    .linkitem{
+        height: 4vh;
+        width: auto;
+        margin-right: 2vh;
+    }
+    .init{
+        height: 4vh;
+        font-size: 24px;
+        margin-left: 2vh;
+        width: auto;
+    }
+}

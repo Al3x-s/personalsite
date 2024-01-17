@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: personal-deploy 
+  namespace: appr-bg-asanchez
+spec:
+  selector:
+    matchLabels:
+      app: site-app
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: site-app #
+    spec:
+      containers:
+      - image: artifacts.drwholdings.com/apprenticeship-docker-local-default/asanchez-personal:v.1.4
+        name: cont
+        ports:
+        - containerPort: 5000
+          name: 5000tcp
+        resources:
+          limits:
+            cpu: 500m
+            memory: 510Mi

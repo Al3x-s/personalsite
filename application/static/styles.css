@@ -140,3 +140,7 @@ a:link {
         width: auto;
     }
 }
+
+.inline_link{
+    font-size: 20px;
+}
